@@ -1,0 +1,12 @@
+package: github.com/traveltriangle/url_shortner
+import:
+- package: github.com/gomodule/redigo
+  version: v2.0.0
+  subpackages:
+  - redis
+- package: github.com/sirupsen/logrus
+  version: v1.0.6
+- package: github.com/spf13/viper
+  version: v1.2.0
+- package: github.com/gorilla/handlers
+  version: v1.4.0

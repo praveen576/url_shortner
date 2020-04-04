@@ -1,0 +1,43 @@
+---
+server:
+  network: tcp
+  addr: 127.0.0.1:9001
+logger:
+  level: debug
+redis:
+  addr: 127.0.0.1:6379
+  db: 9
+  pool: 5
+kafka:
+  brokers:
+  - 127.0.0.1:9092
+  topic:
+  - event_store
+  partition: 0
+  version: 1.0.0
+influxdb:
+  addr: http://127.0.0.1:8086
+  username: admin
+  password: influx123
+  database: tech
+  precision: ms
+  interval: 1
+dynamodb:
+  region: us-east-1
+  table: UserProfiling
+mongodb:
+  url: mongodb://localhost:27017
+  db: event_store_dev
+service_host:
+  trips3m:
+    url: http://localhost:3000
+    api_key: X-CLIENT-API-TOKEN
+    api_key_val: 93f67dbdacf3906955b5c529bb692fb11ac13dc3015c87f25c22fae51a5d79290841127492e312f2
+  web_engage:
+    url: https://api.webengage.com/v1/accounts/311c5643/events
+    api_key: Authorization
+    api_key_val: Bearer 91c36694-f0b0-4961-888f-878d18c96e95
+  google_analytics:
+    url: https://www.google-analytics.com
+    account_id: UA-15374527-4
+    events_path: /collect
