@@ -3,10 +3,10 @@ package main
 import (
   "context"
   "github.com/gorilla/handlers"
-  "github.com/traveltriangle/url_shortner/lib"
-  "github.com/traveltriangle/url_shortner/config"
-  "github.com/traveltriangle/url_shortner/i13n"
-  "github.com/traveltriangle/url_shortner/helpers/url_mapper_helpers"
+  "github.com/url_shortner/lib"
+  "github.com/url_shortner/config"
+  "github.com/url_shortner/i13n"
+  "github.com/url_shortner/helpers/url_mapper_helpers"
 
   "net"
   "net/http"

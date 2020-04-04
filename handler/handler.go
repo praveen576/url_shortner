@@ -1,9 +1,9 @@
 package handler
 
 import (
-	"github.com/traveltriangle/url_shortner/helpers"
-	"github.com/traveltriangle/url_shortner/i13n"
-	"github.com/traveltriangle/url_shortner/lib"
+	"github.com/url_shortner/helpers"
+	"github.com/url_shortner/i13n"
+	"github.com/url_shortner/lib"
 )
 
 var MsgHandlers = map[string]interface{}{

@@ -3,8 +3,8 @@ package lib
 import (
 	"fmt"
 	"crypto/md5"
-  "github.com/traveltriangle/url_shortner/i13n"
-  "github.com/traveltriangle/url_shortner/db"
+  "github.com/url_shortner/i13n"
+  "github.com/url_shortner/db"
   "sync"
 )
 

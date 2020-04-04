@@ -3,7 +3,7 @@ package db
 import (
   "errors"
   "github.com/gomodule/redigo/redis"
-  "github.com/traveltriangle/url_shortner/config"
+  "github.com/url_shortner/config"
   "strings"
   "time"
   "log"

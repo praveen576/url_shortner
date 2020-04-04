@@ -3,7 +3,7 @@ package i13n
 import (
 	"fmt"
 	log "github.com/sirupsen/logrus"
-	"github.com/traveltriangle/url_shortner/config"
+	"github.com/url_shortner/config"
 	"runtime"
 	"strings"
 )

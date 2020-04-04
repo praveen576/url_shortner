@@ -1,4 +1,4 @@
-package: github.com/traveltriangle/url_shortner
+package: github.com/url_shortner
 import:
 - package: github.com/gomodule/redigo
   version: v2.0.0

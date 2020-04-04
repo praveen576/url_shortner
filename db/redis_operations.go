@@ -4,7 +4,7 @@ import (
   "github.com/gomodule/redigo/redis"
   "log"
   "fmt"
-  "github.com/traveltriangle/url_shortner/i13n"
+  "github.com/url_shortner/i13n"
   "sync"
 )
 
